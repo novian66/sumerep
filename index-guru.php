@@ -14,10 +14,12 @@ $stmt->execute();
 // Fetch the records so we can display them in our template.
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
 $nama = $row['nama_lengkap'];
-
-
+$foto = $row['foto'];
+if(empty($foto)):
+    $foto = "blank.png";
+endif;
 ?>
-<?=headersiswa('home',"$nama",'blank.png')?>
+<?=headersiswa('home',"$nama",$foto,'guru')?>
 <!-- Sidebar Navigation Start -->
 <div class="sidebar--nav">
                 <ul>

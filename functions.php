@@ -11,7 +11,7 @@ function pdo_connect_mysql() {
     }
 }
 
-function headersiswa($title,$nama,$foto){
+function headersiswa($title,$nama,$foto,$role){
 echo <<<EOT
 <!DOCTYPE html>
 <html dir="ltr" lang="en" class="no-outlines">
@@ -113,13 +113,13 @@ echo <<<EOT
             <!-- Sidebar Profile Start -->
             <div class="sidebar--profile">
                 <div class="profile--img">
-                    <a href="profile-siswa.php">
+                    <a href="profile-$role.php">
                         <img src="assets/img/avatars/$foto" alt="" class="rounded-circle">
                     </a>
                 </div>
 
                 <div class="profile--name">
-                    <a href="profile-siswa.php" class="btn-link">$nama</a>
+                    <a href="profile-$role.php" class="btn-link">$nama</a>
                 </div>
 
             </div>

@@ -15,7 +15,10 @@ $stmt->execute();
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
 $nama = $row['nama_lengkap'];
 $id_siswa = $row['id'];
-
+$foto = $row['foto'];
+if(empty($foto)):
+    $foto = "blank.png";
+endif;
 $stmts = $pdo->prepare("SELECT * FROM `question_categories` WHERE role_id = '1'");
 $stmts->execute();
 // Fetch the records so we can display them in our template.
@@ -23,7 +26,7 @@ $rows = $stmts->fetchAll(PDO::FETCH_ASSOC);
 
 
 ?>
-<?=headersiswa('home',"$nama",'blank.png')?>
+<?=headersiswa('home',"$nama",$foto,'siswa')?>
 <!-- Sidebar Navigation Start -->
 <div class="sidebar--nav">
                 <ul>

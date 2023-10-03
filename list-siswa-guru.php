@@ -22,13 +22,16 @@ $stmt2s->execute();
 // Fetch the records so we can display them in our template.
 $row2 = $stmt2s->fetch(PDO::FETCH_ASSOC);
 $kelas = $row2['kelas'];
-
+$foto = $row['foto'];
+if(empty($foto)):
+    $foto = "blank.png";
+endif;
 $stmt2 = $pdo->prepare("SELECT * FROM user_students WHERE id_sekolah = '$id_sekolah' and id_kelas = '$id_kelas'");
 $stmt2->execute();
 // Fetch the records so we can display them in our template.
 $rows2 = $stmt2->fetchAll(PDO::FETCH_ASSOC);
 ?>
-<?=headersiswa('List Siswa',"$nama",'blank.png')?>
+<?=headersiswa('List Siswa',"$nama",$foto,'guru')?>
 <!-- Sidebar Navigation Start -->
 <div class="sidebar--nav">
                 <ul>

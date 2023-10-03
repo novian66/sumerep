@@ -15,7 +15,10 @@ $stmt->execute();
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
 $nama = $row['nama_lengkap'];
 $id_siswa = $row['id'];
-
+$foto = $row['foto'];
+if(empty($foto)):
+    $foto = "blank.png";
+endif;
 $stmts2 = $pdo->prepare("SELECT * from master_datas where name = 'tahun_ajar_aktif'");
 $stmts2->execute();
 // Fetch the records so we can display them in our template.
@@ -56,7 +59,7 @@ if(isset($_GET['id']) == '1' && isset($_GET['insert']) == 'true' || isset($_GET[
             }
 }
 ?>
-<?=headersiswa('home',"$nama",'blank.png')?>
+<?=headersiswa('home',"$nama",$foto,'siswa')?>
 <!-- Sidebar Navigation Start -->
 <style>
         ul {

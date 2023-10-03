@@ -1,7 +1,25 @@
 <?php 
-include 'functions.php';
+session_start();
+include('functions.php');
+$pdo = pdo_connect_mysql();
+if(!isset($_SESSION['siswa_id'])){
+    header('location:index.php');
+ }
+
+ $ids = $_SESSION['siswa_id'];
+$stmt = $pdo->prepare("SELECT user_students.*,sekolah.nama AS nama_sekolah
+FROM user_students
+JOIN sekolah ON user_students.id_sekolah = sekolah.id where user_students.user_id = '$ids';");
+$stmt->execute();
+// Fetch the records so we can display them in our template.
+$row = $stmt->fetch(PDO::FETCH_ASSOC);
+$nama = $row['nama_lengkap'];
+$foto = $row['foto'];
+if(empty($foto)):
+    $foto = "blank.png";
+endif;
 ?>
-<?=headersiswa('home','Joewandewa','blank.png')?>
+<?=headersiswa('Rapor siswa',$nama,$foto,'siswa')?>
 <!-- Sidebar Navigation Start -->
 <div class="sidebar--nav">
                 <ul>

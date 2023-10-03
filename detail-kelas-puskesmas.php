@@ -16,7 +16,10 @@ $stmt->execute();
 // Fetch the records so we can display them in our template.
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
 $nama = $row['nama_lengkap'];
-
+$foto = $row['foto'];
+if(empty($foto)):
+    $foto = "blank.png";
+endif;
 $stmt3 = $pdo->prepare("select nama from sekolah where id = '$id_sekolah'");
 $stmt3->execute();
 $row3 = $stmt3->fetch(PDO::FETCH_ASSOC);
@@ -33,7 +36,7 @@ $stmt2->execute();
 // Fetch the records so we can display them in our template.
 $rows2 = $stmt2->fetchAll(PDO::FETCH_ASSOC);
 ?>
-<?=headersiswa('List Siswa',"$nama",'blank.png')?>
+<?=headersiswa('List Siswa',"$nama",$foto,'puskesmas')?>
 <!-- Sidebar Navigation Start -->
 <div class="sidebar--nav">
                 <ul>

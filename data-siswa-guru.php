@@ -16,7 +16,10 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 $nama = $row['nama_lengkap'];
 $id_kelas = $row['id_kelas'];
 $id_sekolah = $row['id_sekolah'];
-
+$foto = $row['foto'];
+if(empty($foto)):
+    $foto = "blank.png";
+endif;
 $stmt2 = $pdo->prepare("SELECT * FROM kelas WHERE id IN ($id_kelas);");
 $stmt2->execute();
 // Fetch the records so we can display them in our template.
@@ -70,7 +73,7 @@ if(!empty($_POST)){
     }
 }
 ?>
-<?=headersiswa('home',"$nama",'blank.png')?>
+<?=headersiswa('home',"$nama",$foto,'guru')?>
 <!-- Sidebar Navigation Start -->
 <div class="sidebar--nav">
                 <ul>

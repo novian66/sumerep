@@ -21,6 +21,10 @@ $row2 = $stmt->fetch(PDO::FETCH_ASSOC);
 
 $nama = $row['nama_lengkap'];
 $images = $row['foto'];
+$foto = $row['foto'];
+if(empty($foto)):
+    $foto = "blank.png";
+endif;
 if(!empty($_POST)){
 
     $username = isset($_POST['namapanggilan']) ? $_POST['namapanggilan'] : '';
@@ -52,7 +56,7 @@ if(!empty($_POST)){
     }
 }
 ?>
-<?=headersiswa('home',"$nama",'blank.png')?>
+<?=headersiswa('home',"$nama",$foto,'siswa')?>
 <!-- Sidebar Navigation Start -->
 <div class="sidebar--nav">
                 <ul>

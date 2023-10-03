@@ -23,13 +23,16 @@ $stmt2->execute();
 $row2 = $stmt2->fetch(PDO::FETCH_ASSOC);
 $nama_sekolah = $row2['nama'];
 $id_kelas = $row2['id_kelas'];
-
+$foto = $row['foto'];
+if(empty($foto)):
+    $foto = "blank.png";
+endif;
 $stmt3 = $pdo->prepare("SELECT * FROM kelas WHERE id IN ($id_kelas);");
 $stmt3->execute();
 // Fetch the records so we can display them in our template.
 $row2s = $stmt3->fetchAll(PDO::FETCH_ASSOC);
 ?>
-<?=headersiswa('home',"$nama",'blank.png')?>
+<?=headersiswa('home',"$nama",$foto,'puskesmas')?>
 <!-- Sidebar Navigation Start -->
 <div class="sidebar--nav">
                 <ul>
