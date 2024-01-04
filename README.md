@@ -54,11 +54,6 @@ Demo aplikasi SUMEREP Versi Umum dapat diujicoba di http://sumerep.com/.
 Pengguna SUMEREP dapat melaporkan dan mendaftarkan masalah/usulan/permintaan perbaikan atau pengembangan SUMEREP di https://github.com/novian66/sumerep/issues. Laporan ini merupakan daftar tugas bagi pengembang SUMEREP untuk mengembangkan SUMEREP berdasarkan masukan dari mitra SUMEREP.
 
 
-## 👨‍💻KONTRIBUTOR
-
-Berikut adalah teman-teman luar biasa yang telah berkontribusi langsung mengembangkan aplikasi OpenSID. ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key))
-
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -69,8 +64,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://jakebolam.com"><img src="https://avatars.githubusercontent.com/u/3534236?v=4?s=100" width="100px;" alt="Jake Bolam"/><br /><sub><b>Jake Bolam</b></sub></a><br /><a href="#infra-jakebolam" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/novian66/sumerep/commits?author=jakebolam" title="Tests">⚠️</a> <a href="https://github.com/novian66/sumerep/commits?author=jakebolam" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Joewandewa"><img src="https://avatars.githubusercontent.com/u/142872913?v=4?s=100" width="100px;" alt="Joewandewa"/><br /><sub><b>Joewandewa</b></sub></a><br /><a href="https://github.com/novian66/sumerep/commits?author=Joewandewa" title="Code">💻</a> <a href="https://github.com/novian66/sumerep/commits?author=Joewandewa" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/novian66"><img src="https://avatars.githubusercontent.com/u/10648886?v=4?s=100" width="100px;" alt="Novian Adi Prasetyo"/><br /><sub><b>Novian Adi Prasetyo</b></sub></a><br /><a href="#projectManagement-novian66" title="Project Management">📆</a></td>
+
     </tr>
   </tbody>
 </table>
