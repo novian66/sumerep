@@ -27,3 +27,31 @@ SUMEREP (singkatan dari Student Medical Report) adalah perangkat lunak berbasis 
 - Memungkinkan kembali ke revisi sebelumnya, apabila diperlukan
 - Memudahkan kolaborasi antar programmer dan juga dengan mitra dampingan dalam mengembangkan SUMEREP
 - Backup online _source code_ SUMEREP yg dapat diakses setiap saat
+
+## 📃 PEDOMAN PENGGUNAAN
+
+Pedoman pemasangan dan penggunaan SUMEREP dapat dilihat di wiki OpenSID di https://github.com/novian66/sumerep/wiki.
+
+## 📑 HAK CIPTA, SYARAT, DAN KETENTUAN
+
+Aplikasi SUMEREP dibangun dan dikembangkan pada penelitian yang didukung oleh dana hibah penelitian LPPM dari Institut Teknologi Telkom Purwokerto untuk Tenia Wahyuningrum (IT Tel3029/LPPM-000/Ka.LPPM/III/2023).
+
+Sistem ini dikelola dengan merujuk pada lisensi **GNU General Public License Version 3** (http://www.gnu.org/licenses/gpl.html).
+
+**Versi di GitHub ini dikembangkan sejak 2023, gratis dan bebas untuk dimanfaatkan dan dikembangkan oleh semua mitra. Hak Cipta SUMEREP dipegang oleh Institut Teknologi Telkom Purwokerto.**
+
+## 💻 DEMO
+
+Demo aplikasi SUMEREP Versi Umum dapat diujicoba di http://sumerep.com/. 
+
+
+
+## 🤝 KEMBANGKAN BERSAMA
+
+Pengguna SUMEREP dapat melaporkan dan mendaftarkan masalah/usulan/permintaan perbaikan atau pengembangan SUMEREP di https://github.com/novian66/sumerep/issues. Laporan ini merupakan daftar tugas bagi pengembang SUMEREP untuk mengembangkan SUMEREP berdasarkan masukan dari mitra SUMEREP.
+
+
+## 👨‍💻KONTRIBUTOR
+
+Berikut adalah teman-teman luar biasa yang telah berkontribusi langsung mengembangkan aplikasi OpenSID. ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key))
+
