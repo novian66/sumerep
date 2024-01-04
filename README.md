@@ -9,11 +9,11 @@ SUMEREP (singkatan dari Student Medical Report) adalah perangkat lunak berbasis 
 
 
 **Fungsi perangkat lunak :**
-1. Pengguna perangkat lunak ada tiga yaitu siswa, guru dan puskesmas.
-2. Pengguna pelajar mempunyai kewenangan untuk mengisi data kesehatan pribadi berdasarkan penilaian diri. Kesehatan diri yang dimaksud adalah kesehatan mental (kesejahteraan psikis, pengetahuan reproduksi, motivasi belajar);
-3. Pengguna guru berperan dalam pengisian formulir pemeriksaan kesehatan setiap siswa. Data kesehatan yang dapat diinput oleh guru berdasarkan observasi dan pengukuran adalah pemeriksaan tanda vital (tekanan darah, nadi, suhu, bunyi paru dan bunyi jantung); pemeriksaan gizi (berat badan, tinggi badan, indeks massa tubuh, stunting, tanda anemia); Pemeriksaan kebugaran (waktu dan jarak tempuh berdasarkan jenis kelamin dan usia saat tes lari); pemeriksaan kebersihan diri (kebersihan rambut, kuku, kulit).
-4. Pengguna puskesmas (dokter yang ditugaskan) berperan dalam menginput kesehatan mahasiswa pada saat pemeriksaan kesehatan, seperti kesehatan telinga dan mulut, penggunaan alat bantu, dan memberikan rekomendasi kepada setiap mahasiswa.
-5. Keluaran dari perangkat lunak ini adalah laporan kesehatan siswa yang dapat dinilai oleh siswa, guru, dan pusat kesehatan masyarakat, tergantung pada peran mereka.
+- Pengguna perangkat lunak ada tiga yaitu siswa, guru dan puskesmas.
+- Pengguna pelajar mempunyai kewenangan untuk mengisi data kesehatan pribadi berdasarkan penilaian diri. Kesehatan diri yang dimaksud adalah kesehatan mental (kesejahteraan psikis, pengetahuan reproduksi, motivasi belajar);
+- Pengguna guru berperan dalam pengisian formulir pemeriksaan kesehatan setiap siswa. Data kesehatan yang dapat diinput oleh guru berdasarkan observasi dan pengukuran adalah pemeriksaan tanda vital (tekanan darah, nadi, suhu, bunyi paru dan bunyi jantung); pemeriksaan gizi (berat badan, tinggi badan, indeks massa tubuh, stunting, tanda anemia); Pemeriksaan kebugaran (waktu dan jarak tempuh berdasarkan jenis kelamin dan usia saat tes lari); pemeriksaan kebersihan diri (kebersihan rambut, kuku, kulit).
+- Pengguna puskesmas (dokter yang ditugaskan) berperan dalam menginput kesehatan mahasiswa pada saat pemeriksaan kesehatan, seperti kesehatan telinga dan mulut, penggunaan alat bantu, dan memberikan rekomendasi kepada setiap mahasiswa.
+- Keluaran dari perangkat lunak ini adalah laporan kesehatan siswa yang dapat dinilai oleh siswa, guru, dan pusat kesehatan masyarakat, tergantung pada peran mereka.
 
 
 **Strategi pengembangan SUMEREP adalah untuk:**
