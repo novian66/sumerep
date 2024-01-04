@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to SUMEREP : Student Medical Reports</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">Student Medical Reports for Analysis and Monitoring of Student Health</p>
 
@@ -70,6 +70,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://jakebolam.com"><img src="https://avatars.githubusercontent.com/u/3534236?v=4?s=100" width="100px;" alt="Jake Bolam"/><br /><sub><b>Jake Bolam</b></sub></a><br /><a href="#infra-jakebolam" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/novian66/sumerep/commits?author=jakebolam" title="Tests">⚠️</a> <a href="https://github.com/novian66/sumerep/commits?author=jakebolam" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/novian66"><img src="https://avatars.githubusercontent.com/u/10648886?v=4?s=100" width="100px;" alt="Novian Adi Prasetyo"/><br /><sub><b>Novian Adi Prasetyo</b></sub></a><br /><a href="#projectManagement-novian66" title="Project Management">📆</a></td>
     </tr>
   </tbody>
 </table>
