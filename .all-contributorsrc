@@ -17,6 +17,15 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "novian66",
+      "name": "Novian Adi Prasetyo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10648886?v=4",
+      "profile": "https://github.com/novian66",
+      "contributions": [
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
