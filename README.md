@@ -54,11 +54,6 @@ Demo aplikasi SUMEREP Versi Umum dapat diujicoba di http://sumerep.com/.
 Pengguna SUMEREP dapat melaporkan dan mendaftarkan masalah/usulan/permintaan perbaikan atau pengembangan SUMEREP di https://github.com/novian66/sumerep/issues. Laporan ini merupakan daftar tugas bagi pengembang SUMEREP untuk mengembangkan SUMEREP berdasarkan masukan dari mitra SUMEREP.
 
 
-## 👨‍💻KONTRIBUTOR
-
-Berikut adalah teman-teman luar biasa yang telah berkontribusi langsung mengembangkan aplikasi OpenSID. ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key))
-
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
